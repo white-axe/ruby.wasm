@@ -238,8 +238,8 @@ module RubyWasm
       sources = {
         "head" => {
           type: "github",
-          repo: "ruby/ruby",
-          rev: "master",
+          repo: "white-axe/ruby",
+          rev: "wasi-leak",
           all_default_exts: RubyWasm::Packager::ALL_DEFAULT_EXTS,
         },
         "3.4" => {

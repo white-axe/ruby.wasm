@@ -239,7 +239,7 @@ module RubyWasm
         "head" => {
           type: "github",
           repo: "white-axe/ruby",
-          rev: "wasi-leak",
+          rev: "wasi-jumpbuf-leak",
           all_default_exts: RubyWasm::Packager::ALL_DEFAULT_EXTS,
         },
         "3.4" => {
